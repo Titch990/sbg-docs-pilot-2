@@ -1,0 +1,24 @@
+# AWS/GCS endpoint addresses
+aws-gcs-endpoint:
+
+ from YML file
+
+ `https://api.sbgenomics.com/v2/{{ site.pages.page.endpoint }}` (AWS users)<br>
+ `https://gcp-api.sbgenomics.com/v2/{{ page.endpoint }}` (GCS users) 
+
+
+
+# Block icons for the various REST methods
+# Use in Markdown as follows:
+#  {{ site.data.api.rest-methods.get }}
+rest-method-icons:
+  get:
+    <span class="rest-method-get">GET</span>
+  put:
+    <span class="rest-method-put">PUT</span>
+  post:
+    <span class="rest-method-post">POST</span>
+  delete:
+    <span class="rest-method-delete">DELETE</span>
+  patch:
+    <span class="rest-method-patch">PATCH</span>
