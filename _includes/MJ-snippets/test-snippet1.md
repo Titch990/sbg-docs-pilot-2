@@ -1,4 +1,4 @@
-### SNIPPET START level 3 heading
+### SNIPPET-START level 3 heading
 
 . . .  and some text
 

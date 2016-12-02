@@ -1,0 +1,16 @@
+# Example snippet defined using YAML data.
+# Use in Markdown as follows:
+#  {{ site.data.test.test-snippet-using-yaml }}
+test-snippet-using-yaml:
+  This is a test snippet defined in a YAML data file.
+
+# Example multi-level snippet defined using YAML data.
+# Access the first of these in Markdown as follows:
+#  {{ site.data.test.another-test-snippet.second-level-snippet-data }}
+another-test-snippet:
+  second-level-snippet-data:
+    This is a second level test snippet.
+  more-second-level-data:
+    Here is more second level data. This data item has several lines.
+    This sentence starts on a new line.
+    This is the final line in the second level YAML test snippet data for now.
