@@ -102,6 +102,8 @@ another-test-snippet:
     This is the final line in the second level YAML test snippet data for now.
 ```
 
+TO DO - the above needs to be split into separate lines.
+
 then reference the second level data in your markdown as `{%raw%}{{ site.data.test.another-test-snippet.second-level-snippet-data }}{% endraw%}` you would get this:
 
 This is a second level test snippet.
@@ -114,8 +116,8 @@ This I haven't worked out yet, again, it may need `<br/><br/>` or there may be a
 
 To make snippets even more flexible, you can include variables in snippets and specify the value to use for the variable when you place the snippet on a page. This value could be a hard-coded value, or could itself be a variable defined in the front matter of the page. I've not yet worked out how to do this successfully for YAML data snippets (you need do a bit of fancy footwork using a few escape characters to ensure the variable is substituted after the snippet has been placed on the page) but I know it can be done. It's simple for snippets defined as includes.
 
-xxxx
+TO DO
 
 ## and a simple condition
 
-ghdhgdhgdh
+TO DO
